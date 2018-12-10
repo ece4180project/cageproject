@@ -58,7 +58,9 @@ Food dispensing was done by mounting an HS-422 Servo that used a wire-connected 
 
 ### Water Level Detection w/ Email Reminders
 
-Water level detection was accomplished by installing a float switch in the water bottle, which switches a digital OFF signal to the Pi when the water level gets too low. The code will then read this signal off of Pi GPIO Pin 19 connected to the float switch, set up as an Input with an internal pulldown enabled. This causes a packet to be sent via MQTT to Amazon servers detailling the time the water level fell while also sending a reminder email. 
+Water level detection was accomplished by installing a float switch in the water bottle, which switches a digital OFF signal to the Pi when the water level gets too low. The code will then read this signal off of Pi GPIO Pin 19 connected to the float switch, set up as an Input with an internal pulldown enabled. This causes a packet to be sent via MQTT to Amazon servers detailling the time the water level fell while also sending a reminder email.
+
+The internal pulldown resistor allows for the direct connection of the two float switch leads to GND and the GPIO Pin with no external resistors.
 
 ### Temperature Sensor
 
@@ -69,6 +71,6 @@ The DHT 11 was connected as shown below:
 
 ### Hamster Wheel Exercise Monitor
 
-Exercise detection was done with a hall-effect sensor mounted to the cage wall in proximity to a spinning hamster wheel, which had a magnet attached to the outer rim. The wheel would trigger the sensor once every spin, allowing us to track physical activity. The Hall Effect Sensor is connected to GPIO Pin 6 with an internal pulldown enabled.
+Exercise detection was done with a hall-effect sensor mounted to the cage wall in proximity to a spinning hamster wheel, which had a magnet attached to the outer rim. The wheel would trigger the sensor once every spin, allowing us to track physical activity. The Hall Effect Sensor is connected to GPIO Pin 6 with an internal pulldown enabled, with the two leads connected to the GPIO Pin and Ground directly.
 
 

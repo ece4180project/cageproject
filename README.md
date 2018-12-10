@@ -23,9 +23,9 @@ To recreate the project, you will need the following things:
 *DHT11 Sensor with Python Library  [Connection Instructions and Python Code available here](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
 *HS-422 Servo
 *A water bottle that can be drilled near the bottom
-*A right-angle float switch, such as [this] (https://www.banggood.com/Side-mounted-Liquid-Water-Level-Sensor-Right-Angle-Float-Switch-p-945298.html?cur_warehouse=CN)
+*A right-angle float switch, such as [this](https://www.banggood.com/Side-mounted-Liquid-Water-Level-Sensor-Right-Angle-Float-Switch-p-945298.html?cur_warehouse=CN)
 *A typical hamster wheel
-*A Sunfounders Hall Effect Switch [Avaialble here] https://www.amazon.com/SunFounder-Switch-Sensor-Arduino-Raspberry/dp/B013G5N03O
+*A Sunfounders Hall Effect Switch [Avaialble here](https://www.amazon.com/SunFounder-Switch-Sensor-Arduino-Raspberry/dp/B013G5N03O)
 *Magnets for Hall Effect
 *An improvised storage hopper for the food dispensing system.
 

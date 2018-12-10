@@ -46,8 +46,14 @@ To recreate the project, you will need the following things:
 
 * 5V Power Supply with breadboard friendly output terminals
 
+
+A Block Diagram Summarizing Setup of the Project:
+
+![Block](https://i.imgur.com/WVG2gGY.png "Block Diagram")
+
 ### Connecting Pi to Amazon Web Services and sending data
 
+After following [this guide for connecting a Pi to Amazon Web Services] 
 
 
 ### Food Dispensing

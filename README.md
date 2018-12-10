@@ -64,6 +64,9 @@ Water level detection was accomplished by installing a float switch in the water
 
 Using a pre-built Python library available [here](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/), we used a DHT 11 Sensor hooked up directly to the Pi to take temperature readings.
 
+The DHT 11 was connected as shown below:
+![DHT11](http://www.circuitbasics.com/wp-content/uploads/2015/12/How-to-Setup-the-DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png "DHT11")
+
 ### Hamster Wheel Exercise Monitor
 
 Exercise detection was done with a hall-effect sensor mounted to the cage wall in proximity to a spinning hamster wheel, which had a magnet attached to the outer rim. The wheel would trigger the sensor once every spin, allowing us to track physical activity. The Hall Effect Sensor is connected to GPIO Pin 6 with an internal pulldown enabled.

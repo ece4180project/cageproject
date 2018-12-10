@@ -56,6 +56,9 @@ A Block Diagram Summarizing Setup of the Project:
 After following [this guide for connecting a Pi to Amazon Web Services](https://docs.aws.amazon.com/iot/latest/developerguide/iot-sdk-setup.html) we took the following steps to get a data flow between our Pi and AWS Servers.
 
 
+For the sake of brevity of this webpage, we compiled the steps behind our connection/data management with Amazon Web Services in a seperate document accessible [here](https://docs.google.com/document/d/1O-g3rYV-jA4PV3Z8YWfoSCYWwL4a-BCZxBAeW8JhJ7M/edit?usp=sharing).
+
+
 
 
 ### Food Dispensing

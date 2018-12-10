@@ -14,9 +14,28 @@ Demonstration Video of Cage Features:
 
 The project was programmed entirely with the Amazon AWS Python SDK to provide cloud-connected services for the cage, with a Raspberry Pi 3 acting as the host computing element that ran the code.
 
+To recreate the project, you will need the following things:
+*Raspberry Pi 3B with Raspbian Installed 
+*[Full Repository of Python Code Available here (must be run on seperate IDEs/Runners)](https://github.com/ece4180project/cageproject)
+*A typical pet cage suited for gerbils/rabbits/etc.
+*Legos or similar provision for constructing a frame for the feeder.
+*Breadboard and patch cables
+*DHT11 Sensor with Python Library  [Connection Instructions and Python Code available here](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
+*HS-422 Servo
+*A water bottle that can be drilled near the bottom
+*A right-angle float switch, such as [this] (https://www.banggood.com/Side-mounted-Liquid-Water-Level-Sensor-Right-Angle-Float-Switch-p-945298.html?cur_warehouse=CN)
+*A typical hamster wheel
+*A Sunfounders Hall Effect Switch [Avaialble here] https://www.amazon.com/SunFounder-Switch-Sensor-Arduino-Raspberry/dp/B013G5N03O
+*Magnets for Hall Effect
+*An improvised storage hopper for the food dispensing system.
+
+### Connecting Pi to Amazon Web Services and sending data
+
+
+
 ### Food Dispensing
 
-Food dispensing was done by mounting an HS-422 Servo that used a wire-connected assembly to manipulate the lever-arm of the dispensing unit, which was fed from a storage hopper fashioned out of a milk jug. A periodic timer in the code is set to actuate the Servo via PWM at set intervals. For demonstration purposes, this was set to very short intervals (30 seconds), but it is readily adjustable.
+Food dispensing was done by mounting an HS-422 Servo that used a wire-connected assembly to manipulate the lever-arm of the dispensing unit, which was fed from a storage hopper fashioned out of a milk jug. A periodic timer in the code is set to actuate the Servo via PWM at set intervals. For demonstration purposes, this was set to very short intervals (30 seconds), but it is readily adjustable in the code.
 
 ### Water Level Detection w/ Email Reminders
 
@@ -24,8 +43,10 @@ Water level detection was accomplished by installing a float switch in the water
 
 ### Temperature Sensor
 
-Using a pre-built library, we used a DHT 11 Sensor hooked up directly to the Pi to take temperature readings.
+Using a pre-built Python library available [here](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/), we used a DHT 11 Sensor hooked up directly to the Pi to take temperature readings.
 
 ### Hamster Wheel Exercise Monitor
 
 Exercise detection was done with a hall-effect sensor mounted to the cage wall in proximity to a spinning hamster wheel, which had a magnet attached to the outer rim. The wheel would trigger the sensor once every spin, allowing us to track physical activity.
+
+

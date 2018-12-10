@@ -17,19 +17,33 @@ Demonstration Video of Cage Features:
 The project was programmed entirely with the Amazon AWS Python SDK to provide cloud-connected services for the cage, with a Raspberry Pi 3 acting as the host computing element that ran the code.
 
 To recreate the project, you will need the following things:
+
 *Raspberry Pi 3B with Raspbian Installed and Cobbler Breadboard Adapter 
+
 *[Full Repository of Python Code Available here (must be run on seperate IDEs/Runners)](https://github.com/ece4180project/cageproject)
+
 *A typical pet cage suited for gerbils/rabbits/etc.
+
 *Legos or similar provision for constructing a frame for the feeder.
+
 *Breadboard and patch cables
+
 *DHT11 Sensor with Python Library  [Connection Instructions and Python Code available here](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/)
+
 *HS-422 Servo
+
 *A water bottle that can be drilled near the bottom
+
 *A right-angle float switch, such as [this](https://www.banggood.com/Side-mounted-Liquid-Water-Level-Sensor-Right-Angle-Float-Switch-p-945298.html?cur_warehouse=CN)
+
 *A typical hamster wheel
+
 *A Sunfounders Hall Effect Switch [Avaialble here](https://www.amazon.com/SunFounder-Switch-Sensor-Arduino-Raspberry/dp/B013G5N03O)
+
 *Magnets for Hall Effect
+
 *An improvised storage hopper for the food dispensing system.
+
 *5V Power Supply with breadboard friendly output terminals
 
 ### Connecting Pi to Amazon Web Services and sending data

@@ -1,4 +1,4 @@
-# ECE 4180 Embedded Design Project : Cloud-connected Pet Cage by Zechen Lu, Phillip Yamin, and Chris Chen
+# ECE 4180 Embedded Design Project : Cloud-connected IoT Pet Cage by Zechen Lu, Phillip Yamin, and Chris Chen
 A final project for ECE 4180 consisting of an IoT pet cage that connects to Amazon Web Services (AWS) with the following features:
 * Automated Food Dispensing
 * Water Level Detection (with emailled refill reminders via AWS)
